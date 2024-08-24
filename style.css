@@ -1,5 +1,13 @@
-.landing-section-wrapper div {
-  padding:10rem;
+body {
+
+    font-family: "open-sans", sans-serif;
+}
+
+
+.landing-section-wrapper {
+  padding: 10rem;
+  height: 100vh;
+  background-color: #0056d2;
 
 }
 .landing-section-wrapper div {
@@ -8,4 +16,32 @@
     vertical-align: top;
   
   }
-  
+
+  .landing-section-wrapper h1 {
+    font-size: 3.4rem;
+    line-height: 1.4;
+    color: white;
+
+  }
+
+  .landing-section-wrapper p {
+    font-size: 17px;
+    font-weight:600;
+    color: #d1d1d1;
+    margin-top: 20px;
+ }
+ .landing-section-wrapper button {
+    margin-top: 20px;
+    border:none;
+    padding: 10px 30px;
+    background-color: #ffff;
+    color:#0056d2;
+    font-weight: bold;
+    font-size: 1.2 rem;
+    border-radius: 7px;
+ }
+ .landing-section-wrapper img
+ {
+
+    border-radius: 15px;
+ }
